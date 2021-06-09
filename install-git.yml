@@ -1,9 +1,10 @@
 - hosts: all
+  become: yes
+  become_method: su
   gather_facts: no
   tasks:
   - name: Install a yum package in Ansible example
     dnf:
       name: git
       state: latest
-      become: yes
-      become_method: su
+
