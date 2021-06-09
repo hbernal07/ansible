@@ -1,9 +1,9 @@
-- hosts: all
-  become: yes
-  gather_facts: no
+---
+- name: httpd
+  hosts: all
   tasks:
-  - name: Install a yum package in Ansible example
+  - name: Install git packages
     yum:
       name: git
       state: present
-
+...
