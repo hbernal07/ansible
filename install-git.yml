@@ -4,4 +4,4 @@
     yum:
       name: git
       state: present
-      ansible_user: root
+      become: yes
