@@ -3,7 +3,7 @@
   gather_facts: no
   tasks:
   - name: Install a yum package in Ansible example
-    dnf:
+    yum:
       name: git
       state: latest
 
