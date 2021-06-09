@@ -9,6 +9,7 @@
       yum:
         name: '*'
         state: latest
+        use_backend: dnf
       
     - name: Reboot servers
       reboot:
