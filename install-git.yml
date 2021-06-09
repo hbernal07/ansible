@@ -1,7 +1,5 @@
 - hosts: all
   become: yes
-  become_method: su
-  become_password: InspiraIT2020
   gather_facts: no
   tasks:
   - name: Install a yum package in Ansible example
