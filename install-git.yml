@@ -5,5 +5,5 @@
   - name: Install a yum package in Ansible example
     yum:
       name: git
-      state: latest
+      state: present
 
