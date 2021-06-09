@@ -1,5 +1,5 @@
 - hosts: all
-  become: yes
+  become: false
   gather_facts: no
   tasks:
   - name: Install a yum package in Ansible example
