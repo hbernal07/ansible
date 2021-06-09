@@ -3,7 +3,6 @@
   # note: your 'hosts' section will likely be different as this is a group I created for my Red Hat hosts in Ansible Tower itself.
   hosts: all
   gather_facts: no
-  become: yes
   tasks:
     - name: Upgrade all packages
       yum:
