@@ -1,8 +1,0 @@
----
-- hosts: all
-  tasks:
-  - name: Copy File
-    win_copy:
-      src: C:\Users\Administrador\Desktop\prueba.txt
-      dest: C:\Users\Administrador\Documentos
-      remote_src: yes
